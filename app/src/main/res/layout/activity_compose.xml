@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/compose"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_compose1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/food_compose_shape"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <ImageView
+            android:id="@+id/iv_compose2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:background="@drawable/food_compose_shape"/>
+        <ImageView
+            android:id="@+id/iv_compose3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:background="@drawable/food_compose_shape"/>
+        <ImageView
+            android:id="@+id/iv_compose4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_launcher"
+            android:padding="10dp"
+            android:background="@drawable/food_compose_shape"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_vegetables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/vegetables"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_vegetables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/tv_meat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/meat"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_meat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

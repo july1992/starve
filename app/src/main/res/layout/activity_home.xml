@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/home_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="饥荒"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    <com.vily.starve.wight.gesture.PullExtendLayout
+        android:id="@+id/pull_extend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.vily.starve.wight.gesture.ExtendListHeader
+            android:id="@+id/extend_header"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="@dimen/dp_4">
+
+                <com.youth.banner.Banner
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/white"
+                app:cardCornerRadius="@dimen/dp_4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_food"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/food" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:alpha="0.1"
+                            android:background="@color/black" />
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_weapon"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/weapon" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:alpha="0.1"
+                            android:background="@color/black" />
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_clothes"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/clothes" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:alpha="0.1"
+                        android:background="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_season"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/season_strategy" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:alpha="0.1"
+                            android:background="@color/black" />
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_compose"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/compose" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:alpha="0.1"
+                            android:background="@color/black" />
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_boss"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/hit_boss" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:alpha="0.1"
+                        android:background="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_secret"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/secret" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:alpha="0.1"
+                            android:background="@color/black" />
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_animal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/animal" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:alpha="0.1"
+                            android:background="@color/black" />
+
+                        <com.vily.starve.wight.CustomView
+                            android:id="@+id/cv_friend"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            app:icon="@mipmap/ic_launcher"
+                            app:title="@string/friend" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </com.vily.starve.wight.gesture.PullExtendLayout>
+</LinearLayout>

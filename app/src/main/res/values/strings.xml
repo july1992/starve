@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Starve</string>
+    <string name="food">食物</string>
+    <string name="weapon">武器</string>
+    <string name="clothes">衣服</string>
+    <string name="season_strategy">季节攻略</string>
+    <string name="compose">合成器</string>
+    <string name="hit_boss">打boss</string>
+    <string name="animal">动物</string>
+    <string name="secret">吐槽</string>
+    <string name="friend">找荒友</string>
+    <string name="meat">肉</string>
+    <string name="vegetables">蔬菜</string>
+</resources>
